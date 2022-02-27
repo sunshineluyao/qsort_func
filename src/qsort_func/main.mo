@@ -29,4 +29,4 @@ func sort(arr:[var Int],low:Nat,high:Nat){
         sort(arr,left+1,high);
     };
 
-    Debug.print (Int.toText(qSort([1,10,5])));
+Debug.print(debug_show(qSort([1,4,3,5,7])));
